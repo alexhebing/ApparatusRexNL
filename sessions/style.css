@@ -1,0 +1,136 @@
+
+body{
+    margin: auto;
+    background-color: #660033;
+    width: 100%;
+    color: lightcoral;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+    overflow: hidden;
+    border-bottom: 1px solid #990033;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: 9px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #990033;
+}
+
+#buttons{
+    float:right;
+    position:relative;
+    left:-50%;
+    text-align:left;
+}
+#buttons ul{
+    list-style:none;
+    position:relative;
+    left:50%;
+}
+
+#banner {
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+#buttons li{float:left;position:relative;}
+
+div.content {
+    display: inline-block;
+    width: 98%;
+    margin-top: 50px;   
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: #990033;
+}
+
+td {
+    height: 120px;
+}
+
+th, td {
+    border-bottom: 1px solid #990033;
+}
+
+table img {
+    display: none;
+}
+
+.audioTitle {
+    display: grid;    
+    padding-top: 30px; 
+}
+
+audio {
+    width: 50px;
+}
+
+@media screen and (min-width: 330px) {
+    .topnav a {
+        font-size: 11px;
+        padding: 10px 12px;
+    }
+
+    audio {
+        width: 75px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    audio {
+        width: 100px;
+    }
+
+    table img {
+        display: block;
+        float: left;
+        width: 75px;
+        height: 75px;
+        margin-right: 15px;
+    }
+}
+
+@media screen and (min-width: 505px) {
+    .topnav a {
+        font-size: 17px;
+        padding: 14px 16px;
+    }
+
+    audio {
+        width: 200px;
+    }
+
+    table img {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media screen and (min-width: 645px) {
+    audio {
+        width: 300px;
+    }
+}

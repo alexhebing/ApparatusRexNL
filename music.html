@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head id="head">
+	<script src="scripts/jquery-3.1.1.js"></script>
+	<script>
+		$('#head').load('head.html');
+	</script>
+</head>
+
+<body>
+
+<div id="menu">
+	<script>
+		$('#menu').load('menu.html');
+	</script>
+</div>
+
+<div class="content">
+	
+	<div class="mb-50">
+		<div class="audio">
+			<img src="img/cover.jpg" heigth="300" width="300" />
+			<audio id="audio" controls="controls">
+				<source id="mp3Source" src="http://apparatusrex.nl/tracks/woo.wav" type="audio/wav"></source>
+				Your browser does not support the audio element.
+			</audio>
+		</div>
+	</div>
+	<div class="mb-50">
+		<iframe style="border: 0; width: 300px; height: 392px;" src="https://bandcamp.com/EmbeddedPlayer/track=15796314/size=large/bgcol=333333/linkcol=9a64ff/tracklist=false/transparent=true/" seamless><a href="http://apparatusrex.bandcamp.com/track/ago">Ago by Apparatus Rex</a></iframe>
+	</div>	
+</div>
