@@ -79,13 +79,8 @@ table img {
     display: none;
 }
 
-.audioTitle {
-    display: grid;    
-    padding-top: 30px; 
-}
-
 audio {
-    width: 50px;
+    width: 300px;
 }
 
 @media screen and (min-width: 330px) {
@@ -93,17 +88,9 @@ audio {
         font-size: 11px;
         padding: 10px 12px;
     }
-
-    audio {
-        width: 75px;
-    }
 }
 
 @media screen and (min-width: 400px) {
-    audio {
-        width: 100px;
-    }
-
     table img {
         display: block;
         float: left;
@@ -119,9 +106,7 @@ audio {
         padding: 14px 16px;
     }
 
-    audio {
-        width: 200px;
-    }
+    
 
     table img {
         width: 90px;
@@ -130,7 +115,10 @@ audio {
 }
 
 @media screen and (min-width: 645px) {
-    audio {
-        width: 300px;
+    
+
+    .audioPlayer {
+        display: table;
+        margin: 0 auto;
     }
 }
